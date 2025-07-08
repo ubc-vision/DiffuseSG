@@ -1,0 +1,21 @@
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.3.0
+torchvision==0.18.0
+torchaudio==2.3.0
+pandas==1.5.3
+cython==0.29.32
+pomegranate
+easydict
+matplotlib
+networkx==2.8.7
+numpy
+pyyaml
+scipy
+pyemd
+gdown
+einops
+sympy
+tensorboard
+ml_collections
+ema_pytorch
+timm
