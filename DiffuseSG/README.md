@@ -80,6 +80,9 @@ export W_IOU=1.0 && torchrun --nnodes=1 --nproc_per_node=4 --master_port=$MASTER
 export BS=1024 && python eval.py -p ${CKPT_PATH} --eval_size 0 --batch_size ${BS} -m=$(hostname)
 ```
 
+### Model Checkpoints
+We provide the checkpoints stored at [oneDrive](https://1drv.ms/f/c/6ae3f91331a91b79/EtyNLczzx3xCqUvx9sXHvqwBVEAu7ujsRkcjQ5pArHE1Xg?e=Z0KtUE).
+
 ## Configuration
 
 The model can be configured through YAML files in the `config/` directory. Key configuration options include:
